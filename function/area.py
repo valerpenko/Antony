@@ -1,3 +1,8 @@
+def geron (a,b,c):
+    p=(a+b+c)/2
+    s=(p*(p-a)*(p-b)*(p-c))**0.5
+    return s
+
 def length(x1,x2,y1,y2):
     p=(((x1-x2)**2)+((y1-y2)**2))**0.5
     return p
@@ -23,8 +28,15 @@ print(cd,"-сторона CD ")
 da=length(dx,ax,dy,ay)
 print(da,"-сторона DA ")
 
+ac=length(ax,cx,ay,cy)
+print(ac)
+
 P=ab+bc+cd+da
 print(P,"-периметр")
 p=(ab+bc+cd+da)/2
 s=((p-ab)*(p-bc)*(p-cd)*(p-da))**0.5
 print(s,"-Площадь")
+
+abc=geron(ab,bc,ac)
+acd=geron(ac,cd,da)
+print(abc+acd,"-Площадь")
