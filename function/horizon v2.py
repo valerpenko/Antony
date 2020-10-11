@@ -9,8 +9,6 @@ def HorCalc(r, planet ):
     BH = horizonlen(r,0.828)
     print(planet,":",man, house, BH)
 
-
 HorCalc(6371, "Earth")
 HorCalc(3389,"mars")
 HorCalc(1700,"moon")
-
