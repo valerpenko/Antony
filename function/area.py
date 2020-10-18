@@ -31,11 +31,11 @@ print(da,"-сторона DA ")
 ac=length(ax,cx,ay,cy)
 print(ac)
 
-P=ab+bc+cd+da
-print(P,"-периметр")
-p=(ab+bc+cd+da)/2
-s=((p-ab)*(p-bc)*(p-cd)*(p-da))**0.5
-print(s,"-Площадь")
+# P=ab+bc+cd+da
+# print(P,"-периметр")
+# p=(ab+bc+cd+da)/2
+# s=((p-ab)*(p-bc)*(p-cd)*(p-da))**0.5
+# print(s,"-Площадь")
 
 abc=geron(ab,bc,ac)
 acd=geron(ac,cd,da)
