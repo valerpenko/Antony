@@ -1,0 +1,5 @@
+s = input()
+s = s.replace('a', '')
+s = s.replace('b', '')
+s = s.replace('c', '')
+print(s)
