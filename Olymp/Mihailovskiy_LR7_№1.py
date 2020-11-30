@@ -1,2 +1,3 @@
 n=input()
-if n
+if n.isalpha()==True:
+    print("True")

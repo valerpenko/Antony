@@ -11,8 +11,16 @@ for i in range(2,10):
         board[i][j]=0
 print(board)
 movecount=0
-offset=[[-2,-1],[-2,1],[-1,2],[1,2],[2,1],[2,-1],[1,-2],[-1,-2]]
+offset=[[-2,-1] ,[-2,1],[-1,2],[1,2],[2,1],[2,-1],[1,-2],[-1,-2]]
 for i in range(0,8):
-    if board[row-offset[i][0]][col-offset[i][1]]==0:
+    if board[row-offset[i][0]]  [col-offset[i][1]]==0:
         movecount+=1
+#     if board[i-2][j-1]==0:
+#         movecount+=1
+#     if board[i-2][j+1]==0:
+#         movecount+=1
+#     if board[i-1][j-2]==0:
+#         movecount+=1
+#     if board[i-1][j+2]==0:
+#         movecount+=1
 print(movecount)
